@@ -8,7 +8,7 @@ Tokenization:Tokenization is the process of breaking a text or a sentence into i
 ### Summary
 This code uses the NLTK (Natural Language Toolkit) library for natural language processing tasks. It defines a function `identify_parts_of_speech` that takes a paragraph as input and tokenizes it into sentences and words. It then performs part-of-speech tagging on each word and categorizes them into respective lists (e.g., nouns, verbs, adjectives). Punctuation marks are excluded from consideration. In the main part, a sample paragraph is analyzed, and the identified parts of speech are printed.
 #### Code
-1.import nltk:This line imports the NLTK (Natural Language Toolkit) library, which provides tools and resources for natural language processing tasks.
+1.import nltk:This line imports the NLTK (Natural Language Toolkit) library, which provides tools and resources for natural language processing tasks.<br />
 2.nltk.download('punkt'):This line downloads the 'punkt' dataset, which contains pre-trained models for tokenization. Tokenization is the process of breaking text into individual units, such as words or sentences.
 3.nltk.download('averaged_perceptron_tagger'):This line downloads the 'averaged_perceptron_tagger' dataset, which contains pre-trained models for part-of-speech tagging. Part-of-speech tagging is the process of identifying the grammatical parts of speech (e.g., nouns, verbs) in a sentence.
 4.from nltk.tokenize import word_tokenize, sent_tokenize:This line imports the 'word_tokenize' and 'sent_tokenize' functions from the NLTK's 'tokenize' module. These functions are used for word and sentence tokenization, respectively. 
