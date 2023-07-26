@@ -1,1 +1,1 @@
-# partsofspeech
+#  Harmonizing the Parts of Speech 
