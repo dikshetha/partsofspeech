@@ -3,8 +3,8 @@
 The code utilizes NLTK to identify and categorize parts of speech (e.g., nouns, verbs) in a given paragraph. It tokenizes the text and performs part-of-speech tagging to 
 extract relevant words. Punctuation marks are excluded from consideration to ensure accurate results.
 ### Details
-NLTK (Natural Language Toolkit): is a Python library used for natural language processing tasks, including text analysis, tokenization, part-of-speech tagging, and more. It provides tools and resources for working with human language data efficiently.
-Tokenization:Tokenization is the process of breaking a text or a sentence into individual units, typically words or phrases, known as tokens. It is a crucial step in natural language processing for text analysis and language understanding.
+**NLTK (Natural Language Toolkit)**: is a Python library used for natural language processing tasks, including text analysis, tokenization, part-of-speech tagging, and more. It provides tools and resources for working with human language data efficiently.<br />
+**Tokenization**:Tokenization is the process of breaking a text or a sentence into individual units, typically words or phrases, known as tokens. It is a crucial step in natural language processing for text analysis and language understanding.
 ### Summary
 This code uses the NLTK (Natural Language Toolkit) library for natural language processing tasks. It defines a function `identify_parts_of_speech` that takes a paragraph as input and tokenizes it into sentences and words. It then performs part-of-speech tagging on each word and categorizes them into respective lists (e.g., nouns, verbs, adjectives). Punctuation marks are excluded from consideration. In the main part, a sample paragraph is analyzed, and the identified parts of speech are printed.
 #### Code
